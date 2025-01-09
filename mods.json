@@ -1,0 +1,12 @@
+{
+  "Forge":
+          [
+            "iron-ladders",
+            "travelers-compass"
+          ],
+  "NeoForge":
+          [
+            "iron-ladders",
+            "travelers-compass"
+          ]
+}
