@@ -1,0 +1,25 @@
+{
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass",
+    "promos": {
+        "1.21.1-recommended": "3.1.05",
+        "1.21-recommended": "3.1.04",
+        "1.20.1-recommended": "3.1.03",
+        "1.20.4-recommended": "3.0.3",
+        "1.21.1-latest": "3.1.05",
+        "1.21-latest": "3.1.04",
+        "1.20.1-latest": "3.1.03",
+        "1.20.4-latest": "3.0.3"
+    },
+    "1.21.1": {
+        "3.1.05": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/6062495"
+    },
+    "1.21": {
+        "3.1.04": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/6019676"
+    },
+    "1.20.1": {
+        "3.1.03": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5952943"
+    },
+    "1.20.4": {
+        "3.0.3": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5416353"
+    }
+}
