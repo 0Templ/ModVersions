@@ -2,30 +2,30 @@
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders",
     "promos": {
         "1.21-recommended": "2.5.12",
-        "1.21.1-recommended": "2.7.03",
-        "1.20.1-recommended": "2.7.02",
+        "1.21.1-recommended": "2.7.04",
+        "1.20.1-recommended": "2.7.04",
         "1.20.4-recommended": "1.0.0",
         "1.21-latest": "2.5.12",
-        "1.21.1-latest": "2.7.03",
-        "1.20.1-latest": "2.7.02",
+        "1.21.1-latest": "2.7.04",
+        "1.20.1-latest": "2.7.04",
         "1.20.6-latest": "2.2.12",
         "1.20.4-latest": "1.0.0",
-        "1.21.4-recommended": "2.7.03",
-        "1.21.4-latest": "2.7.03"
+        "1.21.4-recommended": "2.7.04",
+        "1.21.4-latest": "2.7.04"
     },
     "1.21": {
         "2.5.12": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5743363"
     },
     "1.21.1": {
-        "2.7.03": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6087766"
+        "2.7.04": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6096902"
     },
     "1.20.1": {
-        "2.7.02": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6084159"
+        "2.7.04": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6096901"
     },
     "1.20.4": {
         "1.0.0": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5126252"
     },
     "1.21.4": {
-        "2.7.03": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6093144"
+        "2.7.04": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6096900"
     }
 }
