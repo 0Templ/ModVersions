@@ -1,8 +1,16 @@
 import json
 import os
-import re
 import requests
-from lib import mod_data
+from lib.mod_data import RawVersionData
+
+
+def load_all_mod_data():
+    mods = get_mods()
+    all_mod_data = {}
+    for mod in mods:
+        all_mod_data[mod] = load_mod_data(mod)
+    return all_mod_data
+
 
 def load_mod_data(mod):
     url = f"https://api.cfwidget.com/minecraft/mc-mods/{mod}"
@@ -13,50 +21,37 @@ def load_mod_data(mod):
         return None
     return response.json()
 
-def mod_version_from_file_name(filename, i):
-    matches = list(re.finditer(r'-([^-]*)', filename))
-    ret = matches[i].group()[1:]
-    if ret.find(".jar") != -1:
-        ret = ret[:-4]
+
+def get_latest_raws(raws, *releases):
+    ret = []
+    seen = []
+    for raw in raws:
+        if raw.type in releases and raw.loader:
+            m = (raw.loader, raw.version)
+            if m not in seen:
+                seen.append(m)
+                ret.append(raw)
     return ret
 
-def get_versions_from_data(json_data):
+def get_raws(files):
     ret = []
-    if json_data == None:
+    if files is None:
         return ret
-    data = json_data['files']
-    for file in data:
-        vd = mod_data.FileData(
+    for file in files:
+        raw = RawVersionData(
             file['id'],
             file['url'],
             file['display'],
             file['name'],
             file['type'],
-            file['version'],
             file['filesize'],
             file['versions'],
             file['downloads'],
             file['uploaded_at']
         )
-        ret.append(vd)
+        ret.append(raw)
     return ret
 
-def get_versions(data_list):
-    ret = {}
-    for data in data_list:
-        ret[data] = get_versions_from_data(data_list)
-    return ret
-
-def get_versions_for(versions, loader, releases):
-    ret = []
-    seen = []
-    for vdata in versions:
-        if loader in vdata.versions and vdata.type in releases:
-            for version in vdata.versions:
-                if version not in seen and not re.search("[a-zA-Z]", version):
-                    seen.append(version)
-                    ret.append(mod_data.VersionData(version, mod_version_from_file_name(vdata.filename, 1), loader, vdata.url, vdata.type))
-    return ret
 
 def get_loaders():
     ret = []
@@ -83,10 +78,3 @@ def get_mods():
 
     return ret
 
-
-def load_all_mod_data():
-    mods = get_mods()
-    all_mod_data = {}
-    for mod in mods:
-        all_mod_data[mod] = load_mod_data(mod)
-    return all_mod_data
