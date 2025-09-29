@@ -8,5 +8,10 @@
           [
             "iron-ladders",
             "travelers-compass"
+          ],
+  "Fabric":
+          [
+            "iron-ladders",
+            "travelers-compass"
           ]
 }
