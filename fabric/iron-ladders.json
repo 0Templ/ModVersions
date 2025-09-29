@@ -1,0 +1,60 @@
+{
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders",
+    "promos": {
+        "1.21-recommended": "2.5.02",
+        "1.21.1-recommended": "2.5.02",
+        "1.20.1-recommended": "2.5.0",
+        "1.20.6-recommended": "2.2.10",
+        "1.18.2-recommended": "2.2.0",
+        "1.19.2-recommended": "2.2.0",
+        "1.19.4-recommended": "2.2.0",
+        "1.20.4-recommended": "2.1.51",
+        "1.20.3-recommended": "2.1.51",
+        "1.20.2-recommended": "2.1.51",
+        "1.17.1-recommended": "2.1.25",
+        "1.21-latest": "2.5.02",
+        "1.21.1-latest": "2.5.02",
+        "1.20.1-latest": "2.5.0",
+        "1.20.6-latest": "2.2.10",
+        "1.18.2-latest": "2.2.0",
+        "1.19.2-latest": "2.2.0",
+        "1.19.4-latest": "2.2.0",
+        "1.20.4-latest": "2.1.51",
+        "1.20.3-latest": "2.1.51",
+        "1.20.2-latest": "2.1.51",
+        "1.17.1-latest": "2.1.25"
+    },
+    "1.21": {
+        "2.5.02": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5624643"
+    },
+    "1.21.1": {
+        "2.5.02": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5624639"
+    },
+    "1.20.1": {
+        "2.5.0": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5623098"
+    },
+    "1.20.6": {
+        "2.2.10": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5334900"
+    },
+    "1.18.2": {
+        "2.2.0": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203929"
+    },
+    "1.19.2": {
+        "2.2.0": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203926"
+    },
+    "1.19.4": {
+        "2.2.0": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203921"
+    },
+    "1.20.4": {
+        "2.1.51": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179520"
+    },
+    "1.20.3": {
+        "2.1.51": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179519"
+    },
+    "1.20.2": {
+        "2.1.51": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179518"
+    },
+    "1.17.1": {
+        "2.1.25": "Download and view changelog: https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5163193"
+    }
+}
