@@ -1,5 +1,6 @@
 import re
 
+AVAILABLE_LOADERS = ["fabric", "neoforge", "forge"]
 
 class RawVersionData:
 
@@ -29,13 +30,12 @@ class RawVersionData:
         return None
 
     def try_to_define_loader(self):
-        available = ["fabric", "neoforge", "forge"]
         for version in self.versions:
             version = version.lower().strip()
-            if version in available:
+            if version in AVAILABLE_LOADERS:
                 return version
         name = self.name.lower().strip()
-        for version in available:
+        for version in AVAILABLE_LOADERS:
             if version in name:
                 return version
         return None
@@ -60,6 +60,8 @@ class VersionData:
 def mod_version_from_file_name(filename):
     matches = list(re.finditer(r'-([^-]*)', filename))
     ret = matches[1].group()[1:]
+    if len(matches) < 2:
+        return "unknown"
     if ret.find(".jar") != -1:
         ret = ret[:-4]
     return ret

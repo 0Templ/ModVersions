@@ -1,32 +1,28 @@
-import json
-import os
 import requests
-from lib.mod_data import RawVersionData
+from mod_data import RawVersionData
 
-
-def load_all_mod_data():
-    mods = get_mods()
-    all_mod_data = {}
+def get_mods_data(mods):
+    ret = {}
     for mod in mods:
-        all_mod_data[mod] = load_mod_data(mod)
-    return all_mod_data
-
+        ret[mod] = load_mod_data(mod)
+    return ret
 
 def load_mod_data(mod):
     url = f"https://api.cfwidget.com/minecraft/mc-mods/{mod}"
-    response = requests.get(url)
-    print("response: ", response.status_code)
-    if response.status_code != 200:
-        print(f"Could not fetch {url} ({response.status_code}: {response.reason})")
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        print(f"fetched {url}")
+        return response.json()
+    except requests.RequestException as e:
+        print(f"Could not fetch {url}")
         return None
-    return response.json()
-
 
 def get_latest_raws(raws, *releases):
     ret = []
     seen = []
     for raw in raws:
-        if raw.type in releases and raw.loader:
+        if raw.type in releases:
             m = (raw.loader, raw.version)
             if m not in seen:
                 seen.append(m)
@@ -51,30 +47,3 @@ def get_raws(files):
         )
         ret.append(raw)
     return ret
-
-
-def get_loaders():
-    ret = []
-    if os.path.exists('mods.json'):
-        with open('mods.json', 'r') as file:
-            loaders = json.load(file)
-        for loader in loaders:
-            ret.append(loader)
-    else:
-        print("mods.json was not found")
-    return ret
-
-def get_mods():
-    ret = []
-    if os.path.exists('mods.json'):
-        with open('mods.json', 'r') as file:
-            loaders = json.load(file)
-        for loader in loaders:
-            for mod in loaders[loader]:
-                if mod not in ret:
-                    ret.append(mod)
-    else:
-        print("mods.json was not found")
-
-    return ret
-
