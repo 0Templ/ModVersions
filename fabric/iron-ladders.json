@@ -1,14 +1,8 @@
 {
-    "1.19.2": {
+    "1.21": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203926",
-            "version": "2.2.0"
-        }
-    },
-    "1.20.1": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5605491",
-            "version": "2.5.0"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5624643",
+            "version": "2.5.02"
         }
     },
     "1.21.1": {
@@ -17,61 +11,57 @@
             "version": "2.5.02"
         }
     },
-    "1.21.4": {
+    "1.20.1": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6096900",
-            "version": "2.7.04"
-        }
-    },
-    "1.21": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5624643",
-            "version": "2.5.02"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5623098",
+            "version": "2.5.0"
         }
     },
     "1.20.6": {
         "release": {
             "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5334900",
             "version": "2.2.10"
-        },
-        "beta": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5339135",
-            "version": "2.2.12"
         }
     },
     "1.18.2": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5162315",
-            "version": "2.1.25"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203929",
+            "version": "2.2.0"
+        }
+    },
+    "1.19.2": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203926",
+            "version": "2.2.0"
         }
     },
     "1.19.4": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5177797",
-            "version": "2.1.50"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203921",
+            "version": "2.2.0"
         }
     },
     "1.20.4": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5126252",
-            "version": "1.0.0"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179520",
+            "version": "2.1.51"
         }
     },
     "1.20.3": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179488",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179519",
             "version": "2.1.51"
         }
     },
     "1.20.2": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179487",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179518",
             "version": "2.1.51"
         }
     },
     "1.17.1": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5162326",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5163193",
             "version": "2.1.25"
         }
     }
