@@ -28,6 +28,6 @@ jobs:
     - name: Commit and push changes
       uses: EndBug/add-and-commit@v9
       with:
-        add: 'forge neoforge fabric'
+        add: '.'
         message: 'Versions update'
         push: true
