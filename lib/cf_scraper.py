@@ -1,5 +1,5 @@
 import requests
-from mod_data import RawVersionData
+from lib.mod_data import RawVersionData
 
 def get_mods_data(mods):
     ret = {}
