@@ -20,21 +20,19 @@ def generate_data(loaders, mods, mods_data):
         if mod not in mods_data or mods_data[mod] is None:
             continue
         files = mods_data[mod]['files']
-        raws_all = cf_scraper.get_raws(files)
+        all_versions = cf_scraper.get_versions(files)
         for loader in loaders:
             if mod not in loaders[loader]: continue
-            raws = [raw for raw in raws_all  if raw.loader and raw.loader == loader.lower()]
-            print(f"{len(raws)}", loader)
-            baked = {}
+            versions = [version for version in all_versions if version.loader and loader.lower() in version.loader]
+            typed_versions = {}
             for release_type in ["release", "alpha", "beta"]:
-                latest = cf_scraper.get_latest_raws(raws, release_type)
-                baked[release_type] = [i.build() for i in latest]
-            baked["latest"] = [i.build() for i in cf_scraper.get_latest_raws(raws, "release", "alpha", "beta")]
+                typed_versions[release_type] = [i for i in cf_scraper.get_latest(versions, release_type)]
+            typed_versions["latest"] = [i for i in cf_scraper.get_latest(versions, "release", "alpha", "beta")]
             if loader == "Fabric":
-                json_generator.generate_fabric_format(loader, mod, baked["release"], baked["alpha"], baked["beta"])
+                json_generator.generate_fabric_format(loader, mod, typed_versions["release"], typed_versions["alpha"], typed_versions["beta"])
             else:
-                json_generator.generate_forge_legacy_format(loader, mod, baked["latest"], baked["release"])
-                json_generator.generate_forge_v1_format(loader, mod, baked)
+                json_generator.generate_forge_legacy_format(loader, mod, typed_versions["latest"], typed_versions["release"])
+                json_generator.generate_forge_v1_format(loader, mod, typed_versions)
 
 if __name__ == "__main__":
     main()

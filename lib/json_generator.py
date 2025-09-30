@@ -1,6 +1,7 @@
 import json
 import os
 
+
 def generate_fabric_format(loader, mod, stable, alpha, beta):
     loader = loader.lower()
     os.makedirs(loader, exist_ok=True)

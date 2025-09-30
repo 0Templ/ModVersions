@@ -1,5 +1,6 @@
 import requests
-from lib.mod_data import RawVersionData
+from lib.mod_data import VersionData
+from packaging.version import Version
 
 def get_mods_data(mods):
     ret = {}
@@ -18,23 +19,23 @@ def load_mod_data(mod):
         print(f"Could not fetch {url}")
         return None
 
-def get_latest_raws(raws, *releases):
-    ret = []
-    seen = []
-    for raw in raws:
-        if raw.type in releases:
-            m = (raw.loader, raw.version)
-            if m not in seen:
-                seen.append(m)
-                ret.append(raw)
-    return ret
+def get_latest(versions, *releases):
+    latest = {}
+    for version in versions:
+        if version.type in releases:
+            keys = [(loader, version.type, version.mc_version) for loader in version.loader]
+            for key in keys:
+                mod_version = Version(version.mc_version)
+                if key not in latest or Version(latest[key].mod_version) < mod_version:
+                    latest[key] = version
+    return list(latest.values())
 
-def get_raws(files):
+def get_versions(files):
     ret = []
     if files is None:
         return ret
     for file in files:
-        raw = RawVersionData(
+        raw = VersionData(
             file['id'],
             file['url'],
             file['display'],
