@@ -23,20 +23,20 @@
     },
     "1.20.4": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5448211",
-            "version": "3.0.3b"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5187274",
+            "version": "2.0.4"
         }
     },
     "1.19.2": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5171735",
-            "version": "1.5.10"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5125339",
+            "version": "1.2.0"
         }
     },
     "1.20.2": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5056314",
-            "version": "1.0.10"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5009730",
+            "version": "1.0.0"
         }
     }
 }
