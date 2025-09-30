@@ -17,8 +17,8 @@ def generate_fabric_format(loader, mod, stable, alpha, beta):
 
 def generate_forge_v1_format(loader, mod, versions):
     format_version = "v1"
-    path = f"{loader}/{mod}/{format_version}"
     loader = loader.lower()
+    path = f"{loader}/{mod}/{format_version}"
     os.makedirs(loader, exist_ok=True)
     os.makedirs(path, exist_ok=True)
     latest = versions["latest"]
