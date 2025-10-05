@@ -43,11 +43,11 @@ class VersionData:
         return ret
 
     def mod_version_from_file_name(self):
-        matches = list(re.finditer(r'-([^-]*)', self.name))
-        ret = matches[1].group()[1:]
-        if len(matches) < 2:
+        matches = re.findall(r'(\d+(?:\.\d+){1,3}(?:[0-9]*)?)', self.name)
+
+        if not matches:
             return "unknown"
-        if ret.find(".jar") != -1:
-            ret = ret[:-4]
-        return ret
+        ret = matches[-1]
+
+        return ret.removesuffix(".jar")
 
