@@ -1,17 +1,21 @@
 {
   "Forge":
-          [
-            "iron-ladders",
-            "travelers-compass"
-          ],
+  [
+    "iron-ladders",
+    "snow-imprints",
+    "travelers-compass"
+  ],
   "NeoForge":
-          [
-            "iron-ladders",
-            "travelers-compass"
-          ],
+  [
+    "iron-ladders",
+    "snow-imprints",
+    "travelers-compass"
+  ],
   "Fabric":
-          [
-            "iron-ladders",
-            "travelers-compass"
-          ]
+  [
+    "iron-ladders",
+    "snow-imprints",
+    "travelers-compass"
+  ]
+
 }
