@@ -5,14 +5,14 @@ import os
 def generate_fabric_format(loader, mod, stable, alpha, beta):
     loader = loader.lower()
     os.makedirs(loader, exist_ok=True)
-    data = {
-    }
+    data = {}
     for release_type, versions in [("release", stable), ("alpha", alpha), ("beta", beta)]:
         for version in versions:
-            data.setdefault(version.mc_version, {})[release_type] = {
-                "url": version.url,
-                "version": version.mod_version
-            }
+            for mc_version in version.mc_versions:
+                data.setdefault(mc_version, {})[release_type] = {
+                    "url": version.url,
+                    "version": version.mod_version
+                }
     with open(f"{loader}/{mod}.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
 
@@ -20,16 +20,17 @@ def generate_forge_v1_format(loader, mod, versions):
     format_version = "v1"
     loader = loader.lower()
     path = f"{loader}/{mod}/{format_version}"
-    os.makedirs(loader, exist_ok=True)
     os.makedirs(path, exist_ok=True)
-    latest = versions["latest"]
-    for version in latest:
+    per_mc = {}
+    for version in versions["latest"]:
+        for mc_version in version.mc_versions:
+            per_mc.setdefault(mc_version, version)
+    for mc_version, version in per_mc.items():
         data = {
             "homepage": f"{version.url}",
-            "promos": {f"{version.mc_version}-recommended" : version.mod_version}
+            "promos": {f"{mc_version}-recommended": version.mod_version}
         }
-
-        with open(f"{path}/{version.mc_version}.json", "w", encoding="utf-8") as file:
+        with open(f"{path}/{mc_version}.json", "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
 
 
@@ -42,10 +43,11 @@ def generate_forge_legacy_format(loader, mod, latest, stable):
     }
 
     for version in latest:
-        data["promos"][f"{version.mc_version}-latest"] = version.mod_version
+        for mc_version in version.mc_versions:
+            data["promos"][f"{mc_version}-latest"] = version.mod_version
     for version in stable:
-        data["promos"][f"{version.mc_version}-recommended"] = version.mod_version
+        for mc_version in version.mc_versions:
+            data["promos"][f"{mc_version}-recommended"] = version.mod_version
 
     with open(f"{loader}/{mod}.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
-

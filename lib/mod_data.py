@@ -14,21 +14,22 @@ class VersionData:
         self.versions = versions
         self.downloads = downloads
         self.upload_date = uploaded_at
-        self.mc_version = self.extract_mc_version()
+        self.mc_versions = self.extract_mc_versions()
         self.mod_version = self.mod_version_from_file_name()
         self.loader = self.try_to_define_loader()
 
     def __str__(self):
-        return f"(id={self.id}, filename={self.name}, type={self.type}, version={self.mc_version}, versions={self.versions}, date={self.upload_date}, url={self.url}, loader={self.loader})"
+        return f"(id={self.id}, filename={self.name}, type={self.type}, mc_versions={self.mc_versions}, versions={self.versions}, date={self.upload_date}, url={self.url}, loader={self.loader})"
 
     def __repr__(self):
         return self.__str__()
 
-    def extract_mc_version(self):
+    def extract_mc_versions(self):
+        ret = []
         for version in self.versions:
-            if version[0].isdigit():
-                return version
-        return None
+            if version and version[0].isdigit() and version not in ret:
+                ret.append(version)
+        return ret
 
     def try_to_define_loader(self):
         ret = []
@@ -50,4 +51,3 @@ class VersionData:
         ret = matches[-1]
 
         return ret.removesuffix(".jar")
-
