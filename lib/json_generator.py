@@ -24,6 +24,8 @@ def generate_forge_v1_format(loader, mod, versions):
     per_mc = {}
     for version in versions["latest"]:
         for mc_version in version.mc_versions:
+            if mc_version.count(".") < 2:
+                continue
             per_mc.setdefault(mc_version, version)
     for mc_version, version in per_mc.items():
         data = {
