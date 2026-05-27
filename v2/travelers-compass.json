@@ -1,0 +1,514 @@
+{
+    "versions": {
+        "1.21.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.0.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/8069467"
+                    },
+                    "modrinth": {
+                        "version": "4.0.05",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/kH7nxgC8"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.0.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/8069463"
+                    },
+                    "modrinth": {
+                        "version": "4.0.05",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/2spPW8dG"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.0.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/8069468"
+                    },
+                    "modrinth": {
+                        "version": "4.0.05",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/P1ihBxIm"
+                    }
+                }
+            }
+        },
+        "26.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857409"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857409"
+                    },
+                    "modrinth": {
+                        "version": "4.3.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/C0N0Y6zN"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857416"
+                    },
+                    "modrinth": {
+                        "version": "4.3.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/uT56Xzs5"
+                    }
+                }
+            }
+        },
+        "26.1.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857409"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857409"
+                    },
+                    "modrinth": {
+                        "version": "4.3.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/C0N0Y6zN"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857416"
+                    },
+                    "modrinth": {
+                        "version": "4.3.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/uT56Xzs5"
+                    }
+                }
+            }
+        },
+        "26.1.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857409"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857409"
+                    },
+                    "modrinth": {
+                        "version": "4.3.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/C0N0Y6zN"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7857416"
+                    },
+                    "modrinth": {
+                        "version": "4.3.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/uT56Xzs5"
+                    }
+                }
+            }
+        },
+        "1.21.10": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.2.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7171023"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.2.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7171023"
+                    },
+                    "modrinth": {
+                        "version": "4.2.0",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/zR2XI8AO"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.2.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7171027"
+                    },
+                    "modrinth": {
+                        "version": "4.2.0",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/9yMXuYo3"
+                    }
+                }
+            }
+        },
+        "1.21.8": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.1.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7160859"
+                    },
+                    "modrinth": {
+                        "version": "4.1.0",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/1vMVM9dA"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.1.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7160859"
+                    },
+                    "modrinth": {
+                        "version": "4.1.0",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/p2KSTyc0"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.1.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7160852"
+                    },
+                    "modrinth": {
+                        "version": "4.1.0",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/3aAp7oVY"
+                    }
+                }
+            }
+        },
+        "1.20.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7071477"
+                    },
+                    "modrinth": {
+                        "version": "4.0.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/5ouBXjgf"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.0.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7059695"
+                    },
+                    "modrinth": {
+                        "version": "4.0.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/5ouBXjgf"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/7071479"
+                    },
+                    "modrinth": {
+                        "version": "4.0.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/Oyrx5I0c"
+                    }
+                }
+            }
+        },
+        "1.21": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.1.04",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/6019676"
+                    },
+                    "modrinth": {
+                        "version": "3.0.4",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/91zvgEXs"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.1.04",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/6019676"
+                    },
+                    "modrinth": {
+                        "version": "3.1.0",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/iEwELpQ7"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.1.03",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5953173"
+                    },
+                    "modrinth": {
+                        "version": "3.0.5",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/UQdUCk69"
+                    }
+                }
+            }
+        },
+        "1.20.4": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.3",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5416353"
+                    },
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.3",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5416353"
+                    },
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.3",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5448211"
+                    },
+                    "modrinth": {
+                        "version": "3.0.3b",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/PeE2AbgH"
+                    }
+                }
+            }
+        },
+        "1.19.4": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.0.4.1",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5187975"
+                    },
+                    "modrinth": {
+                        "version": "2.0.4.1",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/IjQfajnS"
+                    }
+                }
+            }
+        },
+        "1.18.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.0.4.1",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5187973"
+                    },
+                    "modrinth": {
+                        "version": "1.2.01",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/OaHLqQeC"
+                    }
+                }
+            }
+        },
+        "1.19.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.0.4.1",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5187972"
+                    },
+                    "modrinth": {
+                        "version": "2.0.4",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/rrzK4dvq"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.5.10",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5171735"
+                    }
+                }
+            }
+        },
+        "1.20.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.0.4",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5187271"
+                    },
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.0.10",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5056314"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            }
+        },
+        "1.16.5": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.5.10",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5170359"
+                    }
+                }
+            }
+        },
+        "1.17.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.5.10",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5169206"
+                    }
+                }
+            }
+        },
+        "1.14.4": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.0.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5015193"
+                    }
+                }
+            }
+        },
+        "1.15.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.0.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/5015184"
+                    }
+                }
+            }
+        },
+        "1.20.3": {
+            "forge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            }
+        },
+        "1.20.5": {
+            "forge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            }
+        },
+        "1.20.6": {
+            "forge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "3.1.02",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/GsACtxPE"
+                    }
+                }
+            }
+        },
+        "1.19.3": {
+            "forge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "2.0.4",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/rrzK4dvq"
+                    }
+                }
+            }
+        }
+    }
+}

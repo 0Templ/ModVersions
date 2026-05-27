@@ -1,0 +1,374 @@
+{
+    "versions": {
+        "1.21.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7604395"
+                    },
+                    "modrinth": {
+                        "version": "3.0.01",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/pLN2NTnb"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7604395"
+                    },
+                    "modrinth": {
+                        "version": "3.0.01",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/riQQaaTy"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7604391"
+                    },
+                    "modrinth": {
+                        "version": "3.0.01",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/7FUbHcRK"
+                    }
+                }
+            }
+        },
+        "1.20.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7583625"
+                    },
+                    "modrinth": {
+                        "version": "3.0.01",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/2UMlxhhw"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.01",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7583625"
+                    },
+                    "modrinth": {
+                        "version": "3.0.01",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/2UMlxhhw"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "3.0.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7581388"
+                    },
+                    "modrinth": {
+                        "version": "3.0.0",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/8R93V3H7"
+                    }
+                }
+            }
+        },
+        "1.19.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.7.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6143850"
+                    },
+                    "modrinth": {
+                        "version": "2.1.52",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/YbPb50gA"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.2.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203926"
+                    },
+                    "modrinth": {
+                        "version": "2.1.12",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/HdUWFx1F"
+                    }
+                }
+            }
+        },
+        "1.21.4": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.7.04",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6096900"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.7.04",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/6096900"
+                    },
+                    "modrinth": {
+                        "version": "2.7.03",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/rlQZC4vG"
+                    }
+                }
+            }
+        },
+        "1.21": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.5.12",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5743363"
+                    },
+                    "modrinth": {
+                        "version": "2.5.10",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/qW4pm7RB"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.5.12",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5743363"
+                    },
+                    "modrinth": {
+                        "version": "2.5.12",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/WMYNv51D"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.5.02",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5624643"
+                    },
+                    "modrinth": {
+                        "version": "2.5.02",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/u8Aqqs80"
+                    }
+                }
+            }
+        },
+        "1.20.6": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.2.12",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5339135"
+                    },
+                    "modrinth": {
+                        "version": "2.2.3",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/nIc4z70t"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.2.12",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5339135"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.2.10",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5334900"
+                    }
+                }
+            }
+        },
+        "1.20.4": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.51",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179490"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/is7hJetl"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "1.0.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5126252"
+                    },
+                    "modrinth": {
+                        "version": "1.20.4-1.0.0-neoForge",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/e4oyOSpk"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.51",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179520"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/UGF1LMSF"
+                    }
+                }
+            }
+        },
+        "1.20.3": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.51",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179488"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/W8FHOnhP"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.51",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179519"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/d152MeAX"
+                    }
+                }
+            }
+        },
+        "1.20.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.51",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179487"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/UXJP3mtb"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.51",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5179518"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/8rwN24e7"
+                    }
+                }
+            }
+        },
+        "1.19.4": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.50",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5177797"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/EiiiDP12"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.2.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203921"
+                    },
+                    "modrinth": {
+                        "version": "2.1.50",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/SFZOp2DQ"
+                    }
+                }
+            }
+        },
+        "1.17.1": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.25",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5162326"
+                    },
+                    "modrinth": {
+                        "version": "2.1.25",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/N4E8Owwe"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.25",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5163193"
+                    },
+                    "modrinth": {
+                        "version": "2.1.12",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/CUTAkUVV"
+                    }
+                }
+            }
+        },
+        "1.18.2": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.1.25",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5162315"
+                    },
+                    "modrinth": {
+                        "version": "2.1.25",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/BxIsT7Wa"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.2.0",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/5203929"
+                    },
+                    "modrinth": {
+                        "version": "2.1.12",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/fCQjP3tr"
+                    }
+                }
+            }
+        },
+        "1.19.3": {
+            "forge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "2.1.1",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/EgXWU3Xh"
+                    }
+                }
+            }
+        }
+    }
+}
