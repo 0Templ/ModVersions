@@ -1,6 +1,50 @@
 import json
 import os
 
+from packaging.version import InvalidVersion, Version
+
+
+def generate_v2_format(mod, source_versions_by_loader):
+    path = "v2"
+    output_path = f"{path}/{mod}.json"
+    os.makedirs(path, exist_ok=True)
+
+    data = {"versions": {}}
+
+    for source, versions_by_loader in source_versions_by_loader.items():
+        for loader, versions in versions_by_loader.items():
+            loader = loader.lower()
+            for version in versions:
+                for mc_version in version.mc_versions:
+                    sources = data.setdefault("versions", {}) \
+                        .setdefault(mc_version, {}) \
+                        .setdefault(loader, {}) \
+                        .setdefault("sources", {})
+                    current = sources.get(source)
+                    if current is None or is_newer_version(version.mod_version, current["version"]):
+                        sources[source] = {
+                            "version": version.mod_version,
+                            "url": version.url
+                        }
+
+    with open(output_path, "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4)
+
+
+def is_newer_version(candidate, current):
+    candidate_version = parse_version(candidate)
+    current_version = parse_version(current)
+    if candidate_version is None or current_version is None:
+        return False
+    return current_version < candidate_version
+
+
+def parse_version(value):
+    try:
+        return Version(value)
+    except InvalidVersion:
+        return None
+
 
 def generate_fabric_format(loader, mod, stable, alpha, beta):
     loader = loader.lower()
