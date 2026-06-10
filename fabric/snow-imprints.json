@@ -1,4 +1,22 @@
 {
+    "26.1": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8222592",
+            "version": "2.5.01"
+        }
+    },
+    "26.1.1": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8222592",
+            "version": "2.5.01"
+        }
+    },
+    "26.1.2": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8222592",
+            "version": "2.5.01"
+        }
+    },
     "1.21.1": {
         "release": {
             "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8205654",
@@ -8,24 +26,6 @@
     "1.21.10": {
         "release": {
             "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8180507",
-            "version": "2.5.0"
-        }
-    },
-    "26.1": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8171968",
-            "version": "2.5.0"
-        }
-    },
-    "26.1.1": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8171968",
-            "version": "2.5.0"
-        }
-    },
-    "26.1.2": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8171968",
             "version": "2.5.0"
         }
     },
