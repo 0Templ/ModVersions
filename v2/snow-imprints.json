@@ -1,5 +1,31 @@
 {
     "versions": {
+        "26.1-snapshot": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.5.11",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8260307"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.5.11",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8260307"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "2.5.11",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8260308"
+                    }
+                }
+            }
+        },
         "1.21.1": {
             "forge": {
                 "sources": {
@@ -250,12 +276,20 @@
                 }
             }
         },
-        "26.1-snapshot": {
+        "26.2": {
+            "neoforge": {
+                "sources": {
+                    "modrinth": {
+                        "version": "2.5.11",
+                        "url": "https://modrinth.com/mod/snow-imprints/version/D41qRpfS"
+                    }
+                }
+            },
             "fabric": {
                 "sources": {
-                    "curseforge": {
-                        "version": "2.5.10",
-                        "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8247482"
+                    "modrinth": {
+                        "version": "2.5.11",
+                        "url": "https://modrinth.com/mod/snow-imprints/version/cv3Yu070"
                     }
                 }
             }
