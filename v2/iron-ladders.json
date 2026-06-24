@@ -4,24 +4,24 @@
             "forge": {
                 "sources": {
                     "curseforge": {
-                        "version": "3.0.01",
-                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7604395"
+                        "version": "3.0.02",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/8305961"
                     },
                     "modrinth": {
-                        "version": "3.0.01",
-                        "url": "https://modrinth.com/mod/iron-ladders/version/pLN2NTnb"
+                        "version": "3.0.02",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/NMHWoGO5"
                     }
                 }
             },
             "neoforge": {
                 "sources": {
                     "curseforge": {
-                        "version": "3.0.01",
-                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/7604395"
+                        "version": "3.0.02",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/iron-ladders/files/8305960"
                     },
                     "modrinth": {
-                        "version": "3.0.01",
-                        "url": "https://modrinth.com/mod/iron-ladders/version/riQQaaTy"
+                        "version": "3.0.02",
+                        "url": "https://modrinth.com/mod/iron-ladders/version/NAZrJMut"
                     }
                 }
             },
