@@ -1,38 +1,38 @@
 {
-    "1.21.1": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8285534",
-            "version": "2.6.01"
-        }
-    },
     "1.21.11": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8285492",
-            "version": "2.5.15"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8320811",
+            "version": "2.5.17"
         }
     },
-    "26.1": {
+    "1.21.1": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8285403",
-            "version": "2.5.15"
-        }
-    },
-    "26.1.1": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8285403",
-            "version": "2.5.15"
-        }
-    },
-    "26.1.2": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8285403",
-            "version": "2.5.15"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8320808",
+            "version": "2.6.07"
         }
     },
     "26.2": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8285211",
-            "version": "2.5.15"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8320689",
+            "version": "2.5.17"
+        }
+    },
+    "26.1": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8320462",
+            "version": "2.5.17"
+        }
+    },
+    "26.1.1": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8320462",
+            "version": "2.5.17"
+        }
+    },
+    "26.1.2": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8320462",
+            "version": "2.5.17"
         }
     },
     "1.21.10": {
