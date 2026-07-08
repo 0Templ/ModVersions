@@ -1,14 +1,14 @@
 {
-    "1.21.11": {
-        "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8334653",
-            "version": "2.5.18"
-        }
-    },
     "1.21.1": {
         "release": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8325743",
-            "version": "2.6.08"
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8387452",
+            "version": "2.8.0"
+        }
+    },
+    "1.21.11": {
+        "release": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/snow-imprints/files/8387428",
+            "version": "2.8.0"
         }
     },
     "26.2": {
