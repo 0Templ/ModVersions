@@ -2,18 +2,21 @@
   "Forge":
   [
     "iron-ladders",
+    "surface-particles",
     "snow-imprints",
     "travelers-compass"
   ],
   "NeoForge":
   [
     "iron-ladders",
+    "surface-particles",
     "snow-imprints",
     "travelers-compass"
   ],
   "Fabric":
   [
     "iron-ladders",
+    "surface-particles",
     "snow-imprints",
     "travelers-compass"
   ]
