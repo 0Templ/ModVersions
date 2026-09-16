@@ -1,5 +1,39 @@
 {
     "versions": {
+        "26.3": {
+            "forge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/8889905"
+                    }
+                }
+            },
+            "neoforge": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/8889905"
+                    },
+                    "modrinth": {
+                        "version": "4.3.05",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/Lc5hQpOd"
+                    }
+                }
+            },
+            "fabric": {
+                "sources": {
+                    "curseforge": {
+                        "version": "4.3.05",
+                        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-compass/files/8889903"
+                    },
+                    "modrinth": {
+                        "version": "4.3.05",
+                        "url": "https://modrinth.com/mod/travelers-compass/version/hl8NOnUY"
+                    }
+                }
+            }
+        },
         "1.21.1": {
             "forge": {
                 "sources": {
